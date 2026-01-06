@@ -59,7 +59,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/tripshield.git
-cd tripshield
+git clone https://github.com/Virxt-18/TripShield.git
+cd TripShield
 npm install
 npm run dev
