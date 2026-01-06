@@ -1,16 +1,65 @@
-# React + Vite
+# TripShield 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TripShield** is a web platform designed to enhance tourist safety in remote and high-risk regions such as India’s Northeast. The app provides real-time location monitoring, digital tourist IDs, emergency alerts, and an authority dashboard for fast incident response—all while prioritizing privacy and convenience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Screenshots](#screenshots)  
+- [Future Enhancements](#future-enhancements)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Digital Tourist ID**
+  - Issued at airports, hotels, or check-posts
+  - Includes KYC, itinerary, and emergency contacts
+  - Valid only for the duration of the visit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Tourist Dashboard**
+  - Safety score based on travel behavior
+  - Panic button with live location sharing
+  - Optional real-time tracking
+  - Geo-fencing alerts for high-risk areas
+
+- **Authority Dashboard**
+  - Real-time heatmaps and tourist movement visualization
+  - Automated e-FIR generation
+  - Alerts for missing tourists or distress situations
+
+- **AI-based Anomaly Detection**
+  - Detects inactivity, sudden signal loss, or route deviations
+  - Flags distress behavior for early intervention
+
+- **Additional Features**
+  - Multilingual support (10+ Indian languages + English)
+  - End-to-end encryption and data privacy compliance
+  - Interactive Leaflet map for live GPS tracking
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS, Leaflet  
+- **Backend:** Firebase
+- **APIs:** Geolocation API, REST APIs for alerts and tracking  
+- **Other Tools:** Charting libraries, Heatmaps, Map visualizations  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/tripshield.git
+cd tripshield
+npm install
+npm run dev
